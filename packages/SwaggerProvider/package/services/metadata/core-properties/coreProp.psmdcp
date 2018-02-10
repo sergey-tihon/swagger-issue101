@@ -3,7 +3,7 @@
   <dc:creator>Sergey Tihon</dc:creator>
   <dc:description>F# Type Provider for Swagger</dc:description>
   <dc:identifier>SwaggerProvider</dc:identifier>
-  <version>0.10.0-beta01</version>
+  <version>0.10.0-beta02</version>
   <keywords />
   <dc:title>SwaggerProvider</dc:title>
   <lastModifiedBy>paket</lastModifiedBy>

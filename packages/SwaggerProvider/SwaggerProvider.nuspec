@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>SwaggerProvider</id>
-    <version>0.10.0-beta01</version>
+    <version>0.10.0-beta02</version>
     <title>Swagger Provider</title>
     <authors>Sergey Tihon</authors>
     <owners>Sergey Tihon</owners>
@@ -23,7 +23,7 @@
 - Supported parsing of schemas with inheritance in types defined inside operation parameters
 - Added Async &amp;amp; Task-based calls for the Operations [#21](https://github.com/fsprojects/SwaggerProvider/issues/21)</releaseNotes>
     <copyright>Copyright 2015-2018</copyright>
-    <tags>F# fsharp data typeprovider Swagger API REST</tags>
+    <tags>F# fsharp data typeprovider Swagger API REST OpenAPI</tags>
     <dependencies>
       <dependency id="FSharp.Core" version="4.0.0" />
       <dependency id="Newtonsoft.Json" version="[10.0.0,11.0.0)" />
