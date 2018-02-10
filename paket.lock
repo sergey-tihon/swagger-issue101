@@ -3,7 +3,7 @@ NUGET
   remote: https://www.nuget.org/api/v2
     FSharp.Core (4.3.3)
     Newtonsoft.Json (10.0.3)
-    SwaggerProvider (0.10.0-beta01)
+    SwaggerProvider (0.10.0-beta02)
       FSharp.Core (>= 4.0)
       Newtonsoft.Json (>= 10.0 < 11.0)
       YamlDotNet (>= 4.3 < 4.4)
