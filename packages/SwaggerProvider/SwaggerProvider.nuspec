@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>SwaggerProvider</id>
+    <version>0.10.0-beta01</version>
+    <title>Swagger Provider</title>
+    <authors>Sergey Tihon</authors>
+    <owners>Sergey Tihon</owners>
+    <licenseUrl>http://github.com/fsprojects/SwaggerProvider/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://fsprojects.github.io/SwaggerProvider/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/fsprojects/SwaggerProvider/master/docs/files/img/logo.png</iconUrl>
+    <description>F# Type Provider for Swagger</description>
+    <summary>F# Type Provider for Swagger</summary>
+    <releaseNotes>- Migration to new Type Provider SDK [#88](https://github.com/fsprojects/SwaggerProvider/pull/88)
+- SwaggerParser moved to runtime assembly (and exposed as API to library users) - [#90](https://github.com/fsprojects/SwaggerProvider/pull/90)
+- Added runtime dependency on YamlDotNet
+- Removed dependency on FSharp.Data/JsonValue (replaced by JSON.NET)
+- Added full-init constructor for provided types [#91](https://github.com/fsprojects/SwaggerProvider/pull/91)
+- Option/Nullable types for not required properties [#93](https://github.com/fsprojects/SwaggerProvider/pull/93)
+- `Http.fs` is moved to `SwaggerProvider.Runtime.dll` and `nicePascalName` applied to provided types, because FSI cannot load types with special characters in name (like `[` and `]`) - fix for [#94](https://github.com/fsprojects/SwaggerProvider/issues/94)
+- Provide namespaces as nested types [#96](https://github.com/fsprojects/SwaggerProvider/issues/96)
+- Added ability to generate multiple clients (one per controller) This feature is turned off by default and is controlled by `IgnoreControllerPrefix` parameter [#45](https://github.com/fsprojects/SwaggerProvider/issues/45#issuecomment-240554229)
+- Supported parsing of schemas with inheritance in types defined inside operation parameters
+- Added Async &amp;amp; Task-based calls for the Operations [#21](https://github.com/fsprojects/SwaggerProvider/issues/21)</releaseNotes>
+    <copyright>Copyright 2015-2018</copyright>
+    <tags>F# fsharp data typeprovider Swagger API REST</tags>
+    <dependencies>
+      <dependency id="FSharp.Core" version="4.0.0" />
+      <dependency id="Newtonsoft.Json" version="[10.0.0,11.0.0)" />
+      <dependency id="YamlDotNet" version="[4.3.0,4.4.0)" />
+    </dependencies>
+  </metadata>
+</package>
