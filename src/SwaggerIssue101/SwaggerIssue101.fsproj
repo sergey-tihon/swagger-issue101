@@ -47,7 +47,6 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Program.fs" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(FSharpTargetsPath)" />
   <Choose>
@@ -77,11 +76,6 @@
       <ItemGroup>
         <Reference Include="SwaggerProvider">
           <HintPath>..\..\packages\SwaggerProvider\lib\net45\SwaggerProvider.dll</HintPath>
-          <Private>True</Private>
-          <Paket>True</Paket>
-        </Reference>
-        <Reference Include="SwaggerProvider.DesignTime">
-          <HintPath>..\..\packages\SwaggerProvider\lib\net45\SwaggerProvider.DesignTime.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>
